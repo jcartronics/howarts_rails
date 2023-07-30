@@ -1,24 +1,42 @@
-# README
+# RoR - Desafio 4 - Subiendo a Heroku
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+En este desafío validaremos nuestros conocimientos de Despliegue de una aplicación en internet utilizando Heroku.
 
-Things you may want to cover:
+## Requerimientos
 
-* Ruby version
+- [✅] Crear la aplicación con el nombre howarts_rails. Esta debe iniciar su desarrollo con el motor de base de datos postgresql.
+- [✅] Los datos serán cargados utilizando faker como gema y desde el archivo seed.rb.
+- [✅] Generar un controlador pages que muestre en una vista index los personajes, la locación y la casa a la que pertenece el mago.
+- [✅] Establecer como ruta raíz de la aplicación la acción index.
+- [✅] Subir la aplicación heroku.
 
-* System dependencies
+## Instalación
 
-* Configuration
+- Clonar el proyecto
+- Ejecutar:
 
-* Database creation
+```bash
+bundle install
+```
 
-* Database initialization
+## Uso
 
-* How to run the test suite
+```bash
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contribuir
 
-* Deployment instructions
+Se aceptan pull requests. Para cambios mayores, por favor abra un issue primero
+para revisar lo que le gustaría cambiar.
 
-* ...
+Asegúrese de realizar las pruebas oportunas.
+
+## Licencia
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Heroku
+
+Link al proyecto en Heroku:
+[https://secret-lake-94149-6e18ec94c5df.herokuapp.com/](https://secret-lake-94149-6e18ec94c5df.herokuapp.com/)
