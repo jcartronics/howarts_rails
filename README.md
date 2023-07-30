@@ -39,4 +39,4 @@ Asegúrese de realizar las pruebas oportunas.
 ## Heroku
 
 Link al proyecto en Heroku:
-[https://secret-lake-94149-6e18ec94c5df.herokuapp.com/](https://secret-lake-94149-6e18ec94c5df.herokuapp.com/)
+[https://desolate-everglades-61724-f46b55281d0c.herokuapp.com/](https://desolate-everglades-61724-f46b55281d0c.herokuapp.com/)
