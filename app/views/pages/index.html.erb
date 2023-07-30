@@ -1,2 +1,18 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<h1>Howarts</h1>
+
+<table class="table table-hover">
+  <thead class="table-dark"> 
+    <tr>
+      <th scope="col">Personajes</th>
+      <th scope="col">Locación</th>
+      <th scope="col">Casa</th>
+    </tr>
+  </thead>
+  <% @characters.each do |character| %>
+    <tr>
+      <td><%= character.name %></td>
+      <td><%= character.location %></td>
+      <td><%= character.house %></td>
+    </tr>
+  <% end %>
+</table>
